@@ -6,7 +6,7 @@ Design and implement a backend service that `GET` data from [randomuser.me](http
     https://randomuser.me/api/?results=300&nat=de,dk,fr,gb&inc=id,gender,name,location,email,dob,picture,nat&seed=flightright
 
 
-## The client site
+## The client side
 Design and implement an application that reads data from the `/nat` endpoint. Display the results grouped by nat with the given information.
 
 As an out put of this exercise we expect to see a minimum of the following:
