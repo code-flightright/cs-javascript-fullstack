@@ -1,7 +1,7 @@
 # Javascript Fullstack Exercise
 
 ## The server side
-Design and implement a backend service that `GET` data from [randomuser.me](https://randomuser.me/api/?results=300&nat=de,dk,fr,gb&inc=id,gender,name,location,email,dob,picture,nat&seed=flightright). Group the results by `nat` and expose the new object as `/nat` endpoint so it can be used by a frontend application. 
+Design and implement a backend service that `GET` data from [randomuser.me](https://randomuser.me/api/?results=300&nat=de,dk,fr,gb&inc=id,gender,name,location,email,dob,picture,nat&seed=flightright). Group the results by `nat` (nationality / country) and expose the new object as `/nat` endpoint so it can be used by a frontend application. 
  
     https://randomuser.me/api/?results=300&nat=de,dk,fr,gb&inc=id,gender,name,location,email,dob,picture,nat&seed=flightright
 
@@ -11,10 +11,9 @@ Design and implement an application that reads data from the `/nat` endpoint. Di
 
 As an out put of this exercise we expect to see a minimum of the following:
 
-- display nr of entries for each country
-- display a random picture of a citinsen
+- display number of entries for each country
+- display a random picture of a citinsen that is provided by API call
 - display a vote button for each coutry
-
 
 The objective of this exercise is to have you walk us through a solution you have created. Do as much or as little as you would like.
 
@@ -36,7 +35,6 @@ Please include:
 
 -   we expect that this will take you a few hours to complete
 -   use any framework or library you are comfortable with (we love Next.js)
-
 -   Bonus points for setting up a db (for a hypothecial country vote function)
 -   Bonus points for security, specs, etc.
 -   Bonus points for deployment
