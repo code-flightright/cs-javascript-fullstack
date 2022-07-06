@@ -2,7 +2,7 @@
 
 ## The server side
 
-Design and implement a backend service that `GET` data from [randomuser.me](https://randomuser.me/api/?results=300&nat=de,dk,fr,gb&inc=id,gender,name,location,email,dob,picture,nat&seed=flightright). Group the results by the `nat` (nationality) field and expose the new object via a `/nat` endpoint so it can be used by a frontend application.
+Design and implement a backend service that `GET` data from [randomuser.me](https://randomuser.me/api/?results=300&nat=de,dk,fr,gb&inc=id,gender,name,location,email,dob,picture,nat&seed=flightright). Group the results by the `nat` (nationality/country) field and expose the new object via a `/nat` endpoint so it can be used by a frontend application.
 
     https://randomuser.me/api/?results=300&nat=de,dk,fr,gb&inc=id,gender,name,location,email,dob,picture,nat&seed=flightright
 
@@ -13,7 +13,7 @@ Design and implement an application that reads data from the `/nat` endpoint. Di
 As an output of this exercise we expect to see a minimum of the following:
 
 - display the number of entries for each country
-- display a random picture of a citizen
+- display a random picture of a citizen that is provided by API call
 - display a vote button for each coutry
 
 ## Readme
